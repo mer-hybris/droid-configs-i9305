@@ -20,4 +20,4 @@
 #define EXYNOS4_ENHANCEMENTS 1\
 %{nil}
 
-%include hybris/droid-configs/droid-configs-common/droid-configs.inc
+%include hybris/droid-configs/droid-configs-device/droid-configs.inc
