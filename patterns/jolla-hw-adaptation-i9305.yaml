@@ -5,12 +5,12 @@ Requires:
 - pattern:jolla-hw-adaptation-hybris-droid-vibrator
 
 - droid-hal-i9305
-- droid-hal-i9305-sailfish-config
 - droid-hal-i9305-img-boot
-- droid-hal-i9305-pulseaudio-settings
-- droid-hal-i9305-policy-settings
 - droid-hal-i9305-kernel-modules
-- droid-hal-i9305-preinit-plugin
+- droid-config-i9305-sailfish-config
+- droid-config-i9305-pulseaudio-settings
+- droid-config-i9305-policy-settings
+- droid-config-i9305-preinit-plugin
 
 # These need to be per-device due to differing backends (fbdev, eglfs, hwc, ..?)
 - qt5-qtwayland-wayland_egl
